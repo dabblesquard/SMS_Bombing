@@ -59,24 +59,30 @@ print(""" \033[1;31m
         \\/          \\/      \\/
         
 
-\033[1;33m==============================================
+\033[1;33m===================================================
 \033[1;32m Owner: Alax Mahmud
  Github: Comming Soon
  Facebook: Alax Hridoy
 Use this tools only for educational purposes
-\033[1;33m==============================================            
+\033[1;33m===================================================            
         
         \033[0m
 
 """)
 
+print("""\033[1;32m===================================================\n""")
 
-print("""\033[1;32m==============================================\n""")
 
+print("\033[1;31m\033[1m\tPowerful Bombing Tools\033[0m\n")
 
-print("\033[1;31m\tPowerful Bombing Tools\n")
+ab= "\033[1m \033[1;33mMake sure internet connection to use this tools\n\033[0m\n"
 
-print("""\033[1;32m==============================================""")
+for c in ab:
+	sys.stdout.write(c)
+	sys.stdout.flush()
+	time.sleep(0.1)
+
+print("""\033[1;32m===================================================\n""")
 
 import requests 
 
